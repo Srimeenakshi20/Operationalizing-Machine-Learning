@@ -37,7 +37,20 @@ Source "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-not
 
  ![](images/dataset_resgistered.png)
  
- ![](images/dataset_registered.png)
+**After the dataset is registered, Automated ML sequence is created with objective type as “Classification” and provided with all required parameters.**
+
+-	After completion of experiment, the status in the automated ML turns into Completed as shows below
+![](images/Autimate_ML_Exp_complete.png)
+
+-	Best model is identified from the experiments and will be used for Deployment
+
+![](images/best_model_automated_ml.png)
+
+-	From the list , we can identify the top model is Voting Ensemble , which is selected to get a details about the model performance
+![](images/best_model_auto_3.png)
+
+ 
+ 
  
 
 
