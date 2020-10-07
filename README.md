@@ -136,4 +136,32 @@ The model scores the result and displays in the Terminal
 ![](images/running_endpoint_getting_score.png)
 
 
+## Step 7: Create and Publish a Pipeline
+
+As part of this step the entire model experiments and pipeline deployment is automated.  
+In the notebook , provided as starter codes , the necessary URLs and details such as compute , dataset name , Workspace etc are provided and the codes with respect to pipeline creation and publish is executed.
+The Screen shot shows the completed process
+
+### Pipeline Completion as Graph
+![](images/pipeline_completed_2.png)
+
+### Pipeline completed result in Run Widget
+![](images/pipeline_completed_run_widget.png)
+
+### Pipeline Execution Summary
+
+![](images/pipeline_execution%20summary.png)
+
+### Experiments of model run in pipeline
+![](images/pipeline_completed.png)
+
+### Published Pipeline Endpoint
+
+![](images/Pipeline_endpoint.png)
+
+### Scheduled Pipeline Run
+
+![](images/pipeline_run_using_deployed%20pipeline.png)
+
+
 
