@@ -69,6 +69,35 @@ AS part of this steps, the best model is identified and deployed. Once the deplo
 ![](images/deployed%20model%20health%20status%202.png)
 
 
+## Step 4: Enable Application Insights
+
+-	After model is deployed , the next step is to enable the Application insights features for the model deployment. 
+-	This is done by suing the script log.py. Configuration information are downloaded from the Azure in the form of **config.json** file
+
+-	After downloading the config.json file , the details from it copy pasted into log.py file. And the API System.update is used to enable Application insights features
+
+
+### Downloaded Config.json file
+![](images/config%20json_pic.png)
+
+### Updates to the log.py file
+
+![](images/log_py.png)
+
+### Execution of log.py file and output in Git Bash
+
+![](images/log_run_pic1.png)
+![](images/log_run_pic3.png)
+
+
+### After running log_py.png from the VM , we can observe the Application insights is enabled in the Azure portal in deployed model endpoint page
+
+![](images/application%20inisght%20enabled.png)
+
+### Application insights portal below
+
+![](images/application%20insight%20portal.png)
+
 
 
 
