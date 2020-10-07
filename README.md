@@ -116,4 +116,24 @@ This steps is performed to check if the endpoint can be communicated using HTTP 
 ![](images/json%20post_swagger_2.png)
 
 
+## Step 6: Consume Model Endpoints
+
+As part of this steps , the end point is consumed for scoring . Using endpoint.py file entries of features are sent as json configuration and the POST call is triggered. 
+
+The model scores the result and displays in the Terminal
+
+### Extracting the REST Url and Primary key from the model deployment endpoint page
+
+![](images/getting%20rest%20url.png)
+
+![](images/getting%20primary%20key.png)
+
+### Update the endpoint.py file with REST Url and primary key as shown below
+
+![](images/endpoint_py.png)
+
+### After executing endpoint.py in terminal of VM and the scores are displayed. There are two entries of feature values and hence we get two scores
+![](images/running_endpoint_getting_score.png)
+
+
 
