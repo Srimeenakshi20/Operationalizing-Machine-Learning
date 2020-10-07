@@ -54,6 +54,22 @@ Source "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-not
 ![](images/best_model_auto_3.png)
 
  
+ ## Step 3 : Deploy the Best Model
+
+AS part of this steps, the best model is identified and deployed. Once the deployment status turns to healthy, more detail such as **REST API , keys , Swagger Json details ** will be displayed
+
+### Image below shows the successful deployment of the model
+![](images/model_deployment success.png)
+
+
+### After the model deployment state changes to healthy, we can observe more details of the model is displayed
+
+![](images/deployed_model health status.png)
+
+![](images/deployed model health status 2.png)
+
+
+
  
  
 
