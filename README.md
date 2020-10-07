@@ -100,8 +100,20 @@ AS part of this steps, the best model is identified and deployed. Once the deplo
 
 
 
+## Step 5: Swagger Documentation
 
- 
- 
+As part of the Swagger Documentation, swagger.json file is downloaded from the model deployment endpoint page and saved in the folder where swagger.sh file and serve.py file is located.
+
+This steps is performed to check if the endpoint can be communicated using HTTP POST Request . After configuring the Swagger in local host by running the swagger.sh , the serve.py is executed to interact with Swagger instance and execute HTTP Post request 
+
+### swagger.json file downloaded 
+
+![](images/swagger_with_deployed%20model.png)
+
+### After executing Swagger.sh and serve.py , the contents are displayed in the Swagger page in the local host
+![](images/json%20post_swagger.png)
+
+![](images/json%20post_swagger_2.png)
+
 
 
