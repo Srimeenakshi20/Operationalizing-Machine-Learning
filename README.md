@@ -165,7 +165,7 @@ The Screen shot shows the completed process
 
 ### ScreenShot - Active Pipeline
 
-![](images/pipeline_active.png)
+![](images/active_pipeline2.png)
 
 **You can observe the pipeline is Active in the above screenshot**
 
