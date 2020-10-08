@@ -163,6 +163,12 @@ The Screen shot shows the completed process
 
 ![](images/pipeline_run_using_deployed%20pipeline.png)
 
+### ScreenShot Active Pipeline
+
+![](images/pipeline_active.png)
+
+**You can observe the pipeline is Active in the above screenshot**
+
 
 # Screen Recording
 
